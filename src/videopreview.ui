@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VideoPreview</class>
+ <widget class="QWidget" name="VideoPreview">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <action name="PreviewIcon">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/new/prefix1/sourse/Preview.png</normaloff>:/new/prefix1/sourse/Preview.png</iconset>
+   </property>
+   <property name="text">
+    <string>预览</string>
+   </property>
+  </action>
+  <action name="PreviousFrame">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/new/prefix1/sourse/PreviousFrame.png</normaloff>:/new/prefix1/sourse/PreviousFrame.png</iconset>
+   </property>
+   <property name="text">
+    <string>上一帧</string>
+   </property>
+  </action>
+  <action name="NextFrame">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/new/prefix1/sourse/NextFrame.png</normaloff>:/new/prefix1/sourse/NextFrame.png</iconset>
+   </property>
+   <property name="text">
+    <string>下一帧</string>
+   </property>
+  </action>
+  <action name="Subtitle">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/new/prefix1/sourse/Subtitle.png</normaloff>:/new/prefix1/sourse/Subtitle.png</iconset>
+   </property>
+   <property name="text">
+    <string>字幕添加</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>

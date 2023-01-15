@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>sourse/EndCut.bmp</file>
+        <file>sourse/File.png</file>
+        <file>sourse/Music.png</file>
+        <file>sourse/MusicFile.png</file>
+        <file>sourse/NextFrame.png</file>
+        <file>sourse/Photo.png</file>
+        <file>sourse/Preview.png</file>
+        <file>sourse/PreviousFrame.png</file>
+        <file>sourse/Scissors.png</file>
+        <file>sourse/StartCut.bmp</file>
+        <file>sourse/Subtitle.png</file>
+        <file>sourse/Transition.png</file>
+        <file>sourse/Video.png</file>
+        <file>sourse/VideoPlaying.png</file>
+        <file>sourse/Delete.png</file>
+        <file>sourse/Rename.png</file>
+        <file>sourse/razor.png</file>
+    </qresource>
+</RCC>

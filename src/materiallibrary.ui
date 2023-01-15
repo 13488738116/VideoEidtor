@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MaterialLibrary</class>
+ <widget class="QWidget" name="MaterialLibrary">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QToolButton" name="ImportButton">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>40</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>160</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QToolButton" name="Video">
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="Photo">
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="Line" name="HLine">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>118</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="DeleteButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>32</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="RenameButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>210</y>
+     <width>32</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <action name="ImportIcon">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/new/prefix1/sourse/File.png</normaloff>:/new/prefix1/sourse/File.png</iconset>
+   </property>
+   <property name="text">
+    <string>导入文件</string>
+   </property>
+  </action>
+  <action name="VideoMaterial">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/new/prefix1/sourse/Video.png</normaloff>:/new/prefix1/sourse/Video.png</iconset>
+   </property>
+   <property name="text">
+    <string>视频素材库</string>
+   </property>
+  </action>
+  <action name="PhotoMaterial">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/new/prefix1/sourse/Photo.png</normaloff>:/new/prefix1/sourse/Photo.png</iconset>
+   </property>
+   <property name="text">
+    <string>图片素材库</string>
+   </property>
+  </action>
+  <action name="Delete">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/new/prefix1/sourse/Delete.png</normaloff>:/new/prefix1/sourse/Delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>删除素材</string>
+   </property>
+  </action>
+  <action name="Rename">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/new/prefix1/sourse/Rename.png</normaloff>:/new/prefix1/sourse/Rename.png</iconset>
+   </property>
+   <property name="text">
+    <string>重命名</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>
